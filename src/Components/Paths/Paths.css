@@ -1,0 +1,16 @@
+.Routes {
+    border: none;
+    border-bottom: 1px solid var(--Grey);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding: 0.5rem 2rem;
+    width: 850px;
+}
+.Link {
+    color: var(--Color);
+    font-size: 18px;
+    text-decoration: none;
+}

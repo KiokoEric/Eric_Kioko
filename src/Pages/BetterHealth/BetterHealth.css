@@ -1,0 +1,56 @@
+.BetterHealth {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.BetterHealth figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.BetterHealth figure img {
+    border-radius: 3px;
+}
+.BetterHealth figcaption {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin-top: 20rem;
+}
+.BetterHealth figcaption button {
+    background-color: var(--Background-color);
+    border: none;
+    color: var(--Color);
+    cursor: pointer;
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+}
+.BetterHealth figcaption i {
+    font-size: 22px;
+    cursor: pointer;
+    margin-right: 0.45rem;
+}
+.swiper {
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+}
+.mySwiper {
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+    width: 500px;
+}
+.swiper-slide {
+    background: var(--Color);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}

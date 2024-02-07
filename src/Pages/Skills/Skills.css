@@ -1,0 +1,61 @@
+.Skills {
+    color: var(--Color);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 3.5rem;
+    width: 800px;
+}
+.Skills h2 {
+    font-size: 35px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.Skills article {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.Skills article:last-child {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 650px;
+}
+.Skills article section h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.Skills article section div {
+    display: grid;
+    grid-template-columns: 110px 110px 110px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+}
+.Skills section figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+}
+.Center {
+    margin: auto;
+    width: 440px;
+}
+.Skills i {
+    color: var(--Color);
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+.Reacticon {
+    margin-bottom: 0.6rem;
+}

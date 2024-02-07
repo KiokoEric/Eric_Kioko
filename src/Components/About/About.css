@@ -1,0 +1,23 @@
+.About {
+    padding: 2rem 2rem;
+    width: 500px;
+}
+.About section h2 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 35px;
+    margin-bottom: 1.2rem;
+}
+.About section:nth-child(2) p {
+    margin-bottom: 1rem;
+}
+.About section:last-child {
+    border-top: 1px solid var(--Grey);
+    padding-top: 1.5rem;
+}
+.About section figure {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.8rem;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}

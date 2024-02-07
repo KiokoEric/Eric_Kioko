@@ -1,0 +1,42 @@
+.Footer {
+    border-top: 1px solid var(--Grey);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    padding-bottom: 1.5rem;
+}
+.Footer button {
+    background-color: var(--Background-color);
+    border: none;
+}
+.Icon {
+    color: var(--Color);
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+@media (max-width:768px) {
+    .Footer {
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 750px;
+    }
+}
+
+@media (max-width:428px) {
+    .Footer {
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 400px;
+    }
+}
+
+@media (max-width:375px) {
+    .Footer {
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 370px;
+    }
+}
