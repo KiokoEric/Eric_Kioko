@@ -91,7 +91,7 @@ return (
                             <figcaption>
                                 <h3>PostgreSQL</h3>
                             </figcaption>
-                        </figure>
+                        </figure> 
                     </div>
                 </div>
             </section>

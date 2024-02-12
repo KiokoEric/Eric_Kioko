@@ -48,3 +48,39 @@ body {
   flex-direction: row;
   column-gap: 2rem;
 }
+
+@media (max-width:768px) {
+  .App {
+    overflow-x: hidden;
+    width: 768px;
+  }
+  .App article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
+
+@media (max-width:428px) {
+  .App {
+    overflow-x: hidden;
+    width: 428px;
+  }
+  .App article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
+
+@media (max-width:375px) {
+  .App {
+    overflow-x: hidden;
+    width: 375px;
+  }
+  .App article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}

@@ -20,7 +20,7 @@ return (
     <div className='Cook' >
         <figure>
             <video muted controls width="600" >
-                <source src={CookVideo} type="video/mp4" />
+                <source src={CookVideo} type="video/mp4" /> 
             </video>
             <figcaption>
                     <button>
@@ -49,13 +49,13 @@ return (
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
         >
-            <SwiperSlide><img src={ Home } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Explore } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Category } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Nationality } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Favourites } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Create } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Recipe} alt="" width="500px" /></SwiperSlide>
+            <SwiperSlide className='swiper-slide'><img src={ Home } alt=""  /></SwiperSlide>
+            <SwiperSlide className='swiper-slide'><img src={ Explore } alt=""  /></SwiperSlide>
+            <SwiperSlide className='swiper-slide'><img src={ Category } alt=""  /></SwiperSlide>
+            <SwiperSlide className='swiper-slide'><img src={ Nationality } alt=""  /></SwiperSlide>
+            <SwiperSlide className='swiper-slide'><img src={ Favourites } alt=""  /></SwiperSlide>
+            <SwiperSlide className='swiper-slide'><img src={ Create } alt=""  /></SwiperSlide>
+            <SwiperSlide className='swiper-slide'><img src={ Recipe} alt=""  /></SwiperSlide>
         </Swiper>
     </div>
 )

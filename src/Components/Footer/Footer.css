@@ -20,7 +20,7 @@
 @media (max-width:768px) {
     .Footer {
         margin: auto;
-        margin-bottom: 2rem;
+        padding-bottom: 1rem;
         width: 750px;
     }
 }
@@ -28,7 +28,7 @@
 @media (max-width:428px) {
     .Footer {
         margin: auto;
-        margin-bottom: 2rem;
+        padding-bottom: 2rem;
         width: 400px;
     }
 }
@@ -36,7 +36,7 @@
 @media (max-width:375px) {
     .Footer {
         margin: auto;
-        margin-bottom: 2rem;
-        width: 370px;
+        padding-bottom: 2rem;
+        width: 375px;
     }
 }

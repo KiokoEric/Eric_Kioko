@@ -59,3 +59,49 @@
 .Reacticon {
     margin-bottom: 0.6rem;
 }
+
+@media (max-width:428px) {
+    .Skills {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        width: 420px;
+    }
+    .Skills article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 1rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .Skills article section {
+        margin-bottom: 2.5rem;
+    }
+    .Skills article:last-child {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 420px;
+    }
+}
+
+@media (max-width:375px) {
+    .Skills {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+    }
+    .Skills article {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+}

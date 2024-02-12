@@ -14,3 +14,25 @@
     font-size: 18px;
     text-decoration: none;
 }
+.Paths {
+    font-weight: bold;
+}
+
+@media (max-width:768px) {
+    .Routes {
+        margin-top: 1.5rem;
+        width: 760px;
+    }
+}
+
+@media (max-width:428px) {
+    .Routes {
+        width: 420px;
+    }
+}
+
+@media (max-width:375px) {
+    .Routes {
+        width: 375px;
+    }
+}

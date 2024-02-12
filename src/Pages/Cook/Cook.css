@@ -13,6 +13,7 @@
 }
 .Cook figure img {
     border-radius: 3px;
+    width: 500px;
 }
 .Cook figcaption {
     display: flex;
@@ -21,7 +22,7 @@
     margin-top: 20.5rem;
 }
 .Cook figcaption button {
-    background-color: var(--Background-color);
+    background-color: var(--Background-color); 
     border: none;
     color: var(--Color);
     cursor: pointer;
@@ -53,4 +54,127 @@
     align-items: center;
     font-size: 18px;
     text-align: center;
+}
+.swiper-slide img {
+    width: 500px;
+}
+
+@media (max-width:768px) {
+    .Cook figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+    .Cook figcaption {
+        margin-top: 0rem;
+    }
+}
+
+@media (max-width:428px) {
+    .Cook {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center ;
+        width: 428px;
+    }
+    .Cook figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 410px;
+    }
+    .Cook figcaption {
+        margin-top: 1rem;
+    }
+    .Cook video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 400px;
+    }
+    .swiper {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+    }
+    .mySwiper {
+        display: flex;
+        flex-direction: row;
+        min-height: 100px;
+        margin-left: -1.8rem;
+        width: 400px;
+    }
+    .swiper-slide {
+        background: var(--Background-color);
+        border-radius: 2px;
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        margin: auto;
+        text-align: center;
+        width: 380px;
+    }
+    .Cook img {
+        margin: auto;
+        width: 380px;
+    }
+}
+
+@media (max-width:375px) {
+    .Cook {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center ;
+        width: 375px;
+    }
+    .Cook figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+    }
+    .Cook figcaption {
+        margin-top: 1rem;
+    }
+    .Cook video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 350px;
+    }
+    .swiper {
+        display: flex;
+        flex-direction: row;
+        width: 370px;
+    }
+    .mySwiper {
+        display: flex;
+        flex-direction: row;
+        min-height: 100px;
+        margin-left: -3.5rem;
+        width: 320px;
+    }
+    .swiper-slide {
+        background: var(--Background-color);
+        border-radius: 2px;
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        margin: auto;
+        text-align: center;
+        width: 320px;
+    }
+    .Cook img {
+        margin: auto;
+        width: 300px;
+    }
 }

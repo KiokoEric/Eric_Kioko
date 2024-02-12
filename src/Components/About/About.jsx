@@ -9,14 +9,14 @@ return (
     <div className='About'>
         <section>
             <h2>About Me</h2>
-        </section>
+        </section> 
         <section>
             <p>
                 I am a detail oriented and motivated professional with expertise in FullStack Software Development. I am adept at crafting elegant and efficient software solutions, troubleshooting and resolving complex technical issues, while consistently meeting deadlines and client expectations.
             </p>
         </section>
         <section>
-            <figure>
+            <figure> 
                 <MdLocationOn size="1.5rem" /> 
                 <figcaption>
                     <p>Nairobi, Kenya</p>

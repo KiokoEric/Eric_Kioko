@@ -24,13 +24,13 @@ return (
                         <SiExpress size="2.1rem" className='React' />
                         <SiMongodb size="2.1rem" className='React' /> 
                     </div>
-                </figcaption>
+                </figcaption> 
             </figure>
         </Link>
         <Link className='Link' id='Cook' to="/Cook" >
             <figure>  
                 <img src={Cook} alt="" width="400px" />
-                <figcaption>
+                <figcaption> 
                     <h2>Cook.io</h2>
                     <p>Cook.io is your one-stop recipe website that caters to food enthusiasts of all levels. From seasoned chefs to beginners in the kitchen, the platform offers a diverse range of delectable recipes that span cuisines, dietary preferences, and different continents.</p>
                     <div>
@@ -40,7 +40,7 @@ return (
                         <h3>API</h3>
                     </div>
                 </figcaption>
-            </figure>
+            </figure> 
         </Link>
         <Link className='Link' to="/BetterHealth" >
             <figure>

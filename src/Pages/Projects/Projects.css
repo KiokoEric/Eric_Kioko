@@ -74,3 +74,181 @@
 .React {
     margin-bottom: 0rem
 }
+
+@media (max-width:768px) {
+    .Projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 1.5rem;
+        width: 760px;
+    }
+    .Projects article {
+        display: grid;
+        grid-template-columns: 750px;
+        align-items: center;
+        justify-content: center;
+        column-gap: 2rem;
+        row-gap: 1.5rem;
+    }
+    .Projects figcaption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+    }
+    .Projects figure {
+        border-bottom: 1px solid var(--Grey);
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        padding-bottom: 0.5rem;
+        width: 750px;
+    }
+    .Projects figure img {
+        width: 350px;
+    }
+    .Projects article p {
+        text-align: center;
+        width: 350px;
+    }
+    .Projects figure div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        width: 350px;
+    }
+}
+
+@media (max-width:428px) {
+    .Projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 420px;
+    }
+    .Projects h2:first-child { 
+        font-size: 35px;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        width: 400px;
+    }
+    .Projects figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 420px;
+    }
+    .Projects figure div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .Projects figure img {
+        width: 350px;
+    }
+    .Projects article p {
+        width: 400px;
+    }
+    #Itrack div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    #Cook div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .EBudgets figure div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:375px) {
+    .Projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 375px;
+    }
+    .Projects h2:first-child { 
+        font-size: 35px;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        width: 350px;
+    }
+    .Projects figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 370px;
+    }
+    .Projects figure div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .Projects figure img {
+        width: 300px;
+    }
+    .Projects article p {
+        margin: auto;
+        width: 360px;
+    }
+    #Itrack div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    #Cook div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .EBudgets figure div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}

@@ -6,13 +6,13 @@ const Paths = () => {
   return (
     <div className='Routes'>
       <section>
-        <Link to="/" className='Link' >Projects</Link>
+        <Link to="/" className='Link Paths' >Projects</Link>
       </section>
       <section>
-        <Link to="/Skills" className='Link' >Skills</Link>
+        <Link to="/Skills" className='Link Paths' >Skills</Link>
       </section>
       <section>
-        <Link to="/Contact" className='Link' >Contact</Link>
+        <Link to="/Contact" className='Link Paths' >Contact</Link>
       </section>
     </div>
   )
