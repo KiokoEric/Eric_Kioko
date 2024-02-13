@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+import ItrackVideo from "../../Images/Itrack/Itrack_Video.mp4";
 import DashBoard from "../../Images/Itrack/Itrack_Dashboard.jpeg";
 import CreateProject from "../../Images/Itrack/Create_Project.jpeg";
 import MyProjects from "../../Images/Itrack/My_Projects.jpeg";
@@ -19,10 +20,9 @@ const Itrack = () => {
 return (
     <div className='Itrack' >
         <figure>
-            {/* <video controls width="600" >
+            <video controls width="600" >
                 <source src={ItrackVideo} type="video/mp4" />
-            </video> */}
-            <img src={ DashBoard } alt="" width="600px" /> 
+            </video>
             <figcaption>
                     <button>
                         <i class="fa-brands fa-github"></i>
@@ -50,6 +50,7 @@ return (
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
         >
+            <SwiperSlide><img src={ DashBoard} alt="" width="500px" /></SwiperSlide>
             <SwiperSlide><img src={ CreateProject } alt="" width="500px" /></SwiperSlide>
             <SwiperSlide><img src={ MyProjects } alt="" width="500px" /></SwiperSlide>
             <SwiperSlide><img src={ AllProjects } alt="" width="500px" /></SwiperSlide>

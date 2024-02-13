@@ -24,7 +24,7 @@ return (
                         <SiExpress size="2.1rem" className='React' />
                         <SiMongodb size="2.1rem" className='React' /> 
                     </div>
-                </figcaption> 
+                </figcaption>  
             </figure>
         </Link>
         <Link className='Link' id='Cook' to="/Cook" >

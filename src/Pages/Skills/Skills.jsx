@@ -65,7 +65,7 @@ return (
                         <FaNodeJs size="3.5rem" className='Reacticon' />
                         <figcaption>
                             <h3>Node JS</h3>
-                        </figcaption>
+                        </figcaption> 
                     </figure>
                     <figure>
                         <SiExpress size="3.5rem" className='Reacticon' />
