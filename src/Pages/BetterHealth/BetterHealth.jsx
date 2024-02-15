@@ -16,6 +16,11 @@ import Workout from "../../Images/BetterHealth/BetterHealth_MyWorkout.jpeg";
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const BetterHealth = () => {
+
+    const BetterHealthGithub = () => {
+        window.open(`https://github.com/KiokoEric/Better_Health`)
+    }
+
 return (
     <div className='BetterHealth' >
         <figure>
@@ -23,7 +28,7 @@ return (
                 <source src={BetterHealthVideo} type="video/mp4" />
             </video>
             <figcaption>
-                    <button>
+                    <button onClick={BetterHealthGithub}>
                         <i class="fa-brands fa-github"></i>
                         Github
                     </button>

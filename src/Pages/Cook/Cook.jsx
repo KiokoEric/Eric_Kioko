@@ -16,6 +16,11 @@ import Recipe from "../../Images/Cook/Cook.io_RecipesPage.jpeg";
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const Cook = () => {
+
+    const CookGithub = () => {
+        window.open(`https://github.com/KiokoEric/Cook.io`)
+    }
+
 return (
     <div className='Cook' >
         <figure>
@@ -23,7 +28,7 @@ return (
                 <source src={CookVideo} type="video/mp4" /> 
             </video>
             <figcaption>
-                    <button>
+                    <button onClick={CookGithub} >
                         <i class="fa-brands fa-github"></i>
                         Github
                     </button>

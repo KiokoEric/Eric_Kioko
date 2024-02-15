@@ -14,6 +14,11 @@ import LoanCalculator from "../../Images/EBudget/EBudget_LoanCalculator.jpeg";
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const EBudget = () => {
+
+    const EBudgetGithub = () => {
+        window.open(`https://github.com/KiokoEric/EBudget`)
+    }
+
 return (
     <div className='EBudget' >
         <figure>
@@ -21,7 +26,7 @@ return (
                 <source src={EBudgetVideo} type="video/mp4" />
             </video>
             <figcaption>
-                    <button>
+                    <button onClick={EBudgetGithub} >
                         <i class="fa-brands fa-github"></i>
                         Github
                     </button>

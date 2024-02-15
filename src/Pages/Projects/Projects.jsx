@@ -32,7 +32,7 @@ return (
                 <img src={Cook} alt="" width="400px" />
                 <figcaption> 
                     <h2>Cook.io</h2>
-                    <p>Cook.io is your one-stop recipe website that caters to food enthusiasts of all levels. From seasoned chefs to beginners in the kitchen, the platform offers a diverse range of delectable recipes that span cuisines, dietary preferences, and different continents.</p>
+                    <p>Cook.io is a recipe website that caters to food enthusiasts of all levels. From seasoned chefs to beginners in the kitchen, the platform offers a diverse range of delectable recipes that span cuisines, dietary preferences, and different continents.</p>
                     <div>
                         <i class="fa-brands fa-react"></i>
                         <SiExpress size="2.1rem" className='React' />
@@ -47,7 +47,7 @@ return (
                 <img src={Better_Health} alt="" width="400px" />
                 <figcaption>
                     <h2>Better Health</h2>
-                    <p>Better Health is your ultimate online destination for holistic health and fitness guidance. Our website is designed to empower individuals on their journey to optimal well-being by providing comprehensive resources.</p>
+                    <p>Better Health is an online destination for holistic health and fitness guidance. The website is designed to empower individuals on their journey to optimal well-being by providing comprehensive health and fitness resources.</p>
                     <div>
                         <i class="fa-brands fa-react"></i>
                         <SiExpress size="2.1rem" className='React' />
@@ -62,7 +62,7 @@ return (
                 <img src={EBudget} alt="" width="400px" />
                 <figcaption>
                     <h2>EBudget</h2>
-                    <p>iBudget is a user-friendly and efficient financial application designed to help individuals manage their finances with ease and precision. This comprehensive application offers a streamlined interface and a range of features that simplify revenue and expense tracking and loan calculation.</p>
+                    <p>iBudget is a user-friendly and efficient financial application designed to help individuals manage their finances with ease and precision. The application offers a streamlined interface and a range of features that simplify revenue and expense tracking and loan calculation.</p>
                     <div>
                         <i class="fa-brands fa-react"></i>
                         <SiExpress size="2.1rem" className='React' />

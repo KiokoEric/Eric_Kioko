@@ -17,6 +17,11 @@ import ArchivedTickets from "../../Images/Itrack/Archived_Tickets.jpeg";
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const Itrack = () => {
+
+    const ItrackGithub = () => {
+        window.open(`https://github.com/KiokoEric/Itrack`)
+    }
+
 return (
     <div className='Itrack' >
         <figure>
@@ -24,7 +29,7 @@ return (
                 <source src={ItrackVideo} type="video/mp4" />
             </video>
             <figcaption>
-                    <button>
+                    <button onClick={ItrackGithub} >
                         <i class="fa-brands fa-github"></i>
                         Github
                     </button>
