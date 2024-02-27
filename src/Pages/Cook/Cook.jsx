@@ -21,6 +21,10 @@ const Cook = () => {
         window.open(`https://github.com/KiokoEric/Cook.io`)
     }
 
+    const Cookio = () => {
+        window.open(`https://cook-io-8x99.onrender.com`)
+    }
+
 return (
     <div className='Cook' >
         <figure>
@@ -32,7 +36,7 @@ return (
                         <i class="fa-brands fa-github"></i>
                         Github
                     </button>
-                    <button>
+                    <button onClick={Cookio} >
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         Live Demo
                     </button> 

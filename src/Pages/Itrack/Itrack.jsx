@@ -22,6 +22,10 @@ const Itrack = () => {
         window.open(`https://github.com/KiokoEric/Itrack`)
     }
 
+    const Itrack = () => {
+        window.open(`https://itrack-pdps.onrender.com`)
+    }
+
 return (
     <div className='Itrack' >
         <figure>
@@ -33,7 +37,7 @@ return (
                         <i class="fa-brands fa-github"></i>
                         Github
                     </button>
-                    <button>
+                    <button onClick={Itrack} >
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         Live Demo
                     </button> 

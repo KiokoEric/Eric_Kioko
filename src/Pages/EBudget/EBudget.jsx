@@ -19,6 +19,10 @@ const EBudget = () => {
         window.open(`https://github.com/KiokoEric/EBudget`)
     }
 
+    const EBudget = () => {
+        window.open(`https://ebudget-1rfs.onrender.com`)
+    }
+
 return (
     <div className='EBudget' >
         <figure>
@@ -30,7 +34,7 @@ return (
                         <i class="fa-brands fa-github"></i>
                         Github
                     </button>
-                    <button>
+                    <button onClick={EBudget} >
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         Live Demo
                     </button> 

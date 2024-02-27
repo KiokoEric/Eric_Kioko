@@ -21,6 +21,10 @@ const BetterHealth = () => {
         window.open(`https://github.com/KiokoEric/Better_Health`)
     }
 
+    const BetterHealth = () => {
+        window.open(`https://better-health.onrender.com`)
+    }
+
 return (
     <div className='BetterHealth' >
         <figure>
@@ -32,7 +36,7 @@ return (
                         <i class="fa-brands fa-github"></i>
                         Github
                     </button>
-                    <button>
+                    <button onClick={BetterHealth} >
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         Live Demo
                     </button> 
