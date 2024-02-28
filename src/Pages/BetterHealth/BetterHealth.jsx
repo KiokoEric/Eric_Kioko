@@ -58,13 +58,13 @@ return (
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
         >
-            <SwiperSlide><img src={ Home } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Exercise } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Nutrition } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Fitness } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Favourites } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Customise } alt="" width="500px" /></SwiperSlide>
-            <SwiperSlide><img src={ Workout } alt="" width="500px" /></SwiperSlide>
+            <SwiperSlide><img src={ Home } alt="" /></SwiperSlide>
+            <SwiperSlide><img src={ Exercise } alt="" /></SwiperSlide>
+            <SwiperSlide><img src={ Nutrition } alt="" /></SwiperSlide>
+            <SwiperSlide><img src={ Fitness } alt="" /></SwiperSlide>
+            <SwiperSlide><img src={ Favourites } alt="" /></SwiperSlide>
+            <SwiperSlide><img src={ Customise } alt="" /></SwiperSlide>
+            <SwiperSlide><img src={ Workout } alt="" /></SwiperSlide>
         </Swiper>
     </div>
 )
