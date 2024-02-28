@@ -99,14 +99,14 @@
     .swiper {
         display: flex;
         flex-direction: row;
-        width: 400px;
+        width: 380px;
     }
     .mySwiper {
         display: flex;
         flex-direction: row;
         min-height: 100px;
         margin-left: 1rem;
-        width: 400px;
+        width: 380px;
     }
     .swiper-slide {
         background: var(--Background-color);
@@ -116,11 +116,11 @@
         font-size: 18px;
         margin: auto;
         text-align: center;
-        width: 380px;
+        width: 350px;
     }
     .BetterHealth img {
         margin: auto;
-        width: 380px;
+        width: 350px;
     }
 }
 

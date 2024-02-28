@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 import ItrackVideo from "../../Images/Itrack/Itrack_Video.mp4";
 import DashBoard from "../../Images/Itrack/Itrack_Dashboard.jpeg";
 import CreateProject from "../../Images/Itrack/Create_Project.jpeg";
@@ -14,7 +15,6 @@ import CreateTicket from "../../Images/Itrack/Create_Ticket.jpeg";
 import MyTickets from "../../Images/Itrack/My_Tickets.jpeg";
 import AllTickets from "../../Images/Itrack/All_Tickets.jpeg";
 import ArchivedTickets from "../../Images/Itrack/Archived_Tickets.jpeg";
-import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const Itrack = () => {
 
