@@ -141,7 +141,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 420px;
+        width: 428px;
     }
     .Projects h2:first-child { 
         font-size: 35px;
@@ -155,6 +155,7 @@
         align-items: center;
         justify-content: center;
         margin: auto;
+        padding-left: 0rem;
         width: 420px;
     }
     .Projects figure div {
@@ -166,7 +167,7 @@
         margin-bottom: 1rem;
     }
     .Projects figure img {
-        width: 350px;
+        width: 380px;
     }
     .Projects article p {
         width: 400px;
@@ -218,6 +219,7 @@
         align-items: center;
         justify-content: center;
         margin: auto;
+        padding-left: 0rem;
         width: 370px;
     }
     .Projects figure div {
@@ -229,7 +231,7 @@
         margin-bottom: 1rem;
     }
     .Projects figure img {
-        width: 300px;
+        width: 350px;
     }
     .Projects article p {
         margin: auto;

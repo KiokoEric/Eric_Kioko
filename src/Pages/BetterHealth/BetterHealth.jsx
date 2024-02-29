@@ -1,5 +1,5 @@
 import React from 'react';
-import "../BetterHealth/BetterHealth.css";
+import "./BetterHealth.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -22,7 +22,7 @@ const BetterHealth = () => {
     }
 
     const BetterHealth = () => {
-        window.open(`https://better-health.onrender.com`)
+        window.open(`https://better-health.onrender.com`) 
     }
 
 return (
@@ -46,7 +46,7 @@ return (
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={'auto'}
+        slidesPerView={'auto'} 
         coverflowEffect={{
             rotate: 50,
             stretch: 0,
@@ -58,13 +58,13 @@ return (
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
         >
-            <SwiperSlide><img src={ Home } alt="" /></SwiperSlide>
-            <SwiperSlide><img src={ Exercise } alt="" /></SwiperSlide>
-            <SwiperSlide><img src={ Nutrition } alt="" /></SwiperSlide>
-            <SwiperSlide><img src={ Fitness } alt="" /></SwiperSlide>
-            <SwiperSlide><img src={ Favourites } alt="" /></SwiperSlide>
-            <SwiperSlide><img src={ Customise } alt="" /></SwiperSlide>
-            <SwiperSlide><img src={ Workout } alt="" /></SwiperSlide>
+            <SwiperSlide><img className='BetterHealthImage' src={ Home } alt="" /></SwiperSlide>
+            <SwiperSlide><img className='BetterHealthImage' src={ Exercise } alt="" /></SwiperSlide>
+            <SwiperSlide><img className='BetterHealthImage' src={ Nutrition } alt="" /></SwiperSlide>
+            <SwiperSlide><img className='BetterHealthImage' src={ Fitness } alt="" /></SwiperSlide>
+            <SwiperSlide><img className='BetterHealthImage' src={ Favourites } alt="" /></SwiperSlide>
+            <SwiperSlide><img className='BetterHealthImage' src={ Customise } alt="" /></SwiperSlide>
+            <SwiperSlide><img className='BetterHealthImage' src={ Workout } alt="" /></SwiperSlide>
         </Swiper>
     </div>
 )

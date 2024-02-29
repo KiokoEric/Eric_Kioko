@@ -20,7 +20,7 @@ const EBudget = () => {
     }
 
     const EBudget = () => {
-        window.open(`https://ebudget-1rfs.onrender.com`)
+        window.open(`https://ebudget-1rfs.onrender.com`) 
     }
 
 return (
