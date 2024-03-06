@@ -23,7 +23,7 @@ const Itrack = () => {
     }
 
     const Itrack = () => {
-        window.open(`https://itrack-pdps.onrender.com`)
+        window.open(`https://itrack-0krk.onrender.com`)
     }
 
 return (
