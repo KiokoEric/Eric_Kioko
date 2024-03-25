@@ -12,7 +12,7 @@ return (
         </section> 
         <section>
             <p>
-                I am a detail oriented and motivated professional with expertise in FullStack Software Development. I am adept at crafting elegant and efficient software solutions, troubleshooting and resolving complex technical issues, while consistently meeting deadlines and client expectations.
+            I discovered a love for web development 2 years ago when I enrolled in a 2 week Javascript boot camp. I was greatly captivated by the idea presented by the teachers who highlighted all the possibilities that could be achieved through web development. After the boot camp, I began a self-taught web development journey which saw me progress through tutorials, books and mentorship. In these 2 years, I have developed myself as a full-stack software developer with real-world projects. I am excited to venture into a career as a full-stack developer where I can contribute to enhancing a user’s web experience.
             </p>
         </section>
         <section>
